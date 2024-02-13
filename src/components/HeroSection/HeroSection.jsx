@@ -42,6 +42,7 @@ export default function HeroSection() {
         <motion.div className="flex justify-center space-x-4 py-2 px-4 mt-8" variants={variants} initial="initial" animate="animate">
           
           {accounts.map(e=><SocialIcon
+          key={e.name}
             network={e.name}
             style={{ height: '35px', width: '35px' }}
             href={e.url}
