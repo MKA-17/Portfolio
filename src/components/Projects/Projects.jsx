@@ -31,10 +31,10 @@ export default async function Projects() {
   const projectData = await fetchData();
   // console.log("projects: ", projectData)
   return (
-    <>
+    <section id="project" className="  py-16">
+  
   {
     !!projectData?.projects?.length && 
-    <section id="project" className="  py-16">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 underline">Projects</h2>
         {/* Add your portfolio items here */}
@@ -51,9 +51,9 @@ export default async function Projects() {
         </div>
         </div>
       </div>
-    </section>
   }
-    </>
+  </section>
+    
 
   )
 }

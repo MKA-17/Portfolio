@@ -49,7 +49,7 @@ export default function Contact() {
     };
 
     return (
-        <div id="contact" className="container mx-auto my-28 text-center "  >
+        <div id="contact" className="container mx-auto my-28 text-center  py-20"  >
             <h2 className="text-3xl font-bold mb-6 underline">Contact Me</h2>
             <p className="text-lg mb-6">Let's connect and discuss your project.</p>
             <section className="py-16   text-white">
